@@ -133,7 +133,7 @@ public:
   // produce an informative stack trace the application should
   // be dynamically linked and compiled with debug symbols.
   static
-  void SetStackTraceOnError(int enable);
+  void SetStackTraceOnError(bool enable);
 
   // format and return the current program stack in a string. In
   // order to produce an informative stack trace the application
